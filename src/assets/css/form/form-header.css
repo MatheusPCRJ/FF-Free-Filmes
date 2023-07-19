@@ -1,0 +1,9 @@
+.form {
+    display: flex;
+}
+
+
+.form__pesquisar {
+    padding: .5rem;
+    font-size: 1.1rem;
+}
