@@ -1,0 +1,14 @@
+* {
+    background-color: #2b2828;
+    box-sizing: border-box;
+
+    font-family: Helvetica;
+
+    margin: 0;
+    
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    transition: 0.5s;
+}

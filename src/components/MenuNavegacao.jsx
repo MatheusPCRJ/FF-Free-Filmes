@@ -1,9 +1,10 @@
 import { BiSearchAlt2 } from "react-icons/bi";
-
-import "../assets/css/cabecalho.css";
-import "../assets/css/menu/nav.css";
-import "../assets/css/form/form-header.css";
 import { Link } from "react-router-dom";
+
+import "../assets/css/MenuNavegacao/cabecalho.css";
+import "../assets/css/MenuNavegacao/menu/nav.css";
+import "../assets/css/MenuNavegacao/form/form-header.css";
+
 
 function MenuNavegacao() {
   return (
@@ -23,6 +24,7 @@ function MenuNavegacao() {
           </Link>
 
           <form className="form">
+            
             <input
               className="form__pesquisar"
               type="text"
@@ -31,8 +33,11 @@ function MenuNavegacao() {
             <button type="sumit" className="form__button">
               <BiSearchAlt2 />
             </button>
+
           </form>
+
         </nav>
+
       </header>
     </>
   );

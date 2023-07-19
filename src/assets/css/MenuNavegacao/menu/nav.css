@@ -1,0 +1,22 @@
+.menu {
+    align-items: center;
+    
+    display: flex;
+}
+
+.menu__item {
+    color: #fff;
+    
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    list-style: none;
+    
+    padding-right: 1rem;
+}
+
+.menu__item:hover {
+    color: #89da21;
+    
+    transition: .5s;
+}

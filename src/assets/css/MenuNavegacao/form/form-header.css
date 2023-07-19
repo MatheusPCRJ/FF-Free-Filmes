@@ -1,0 +1,32 @@
+.form {
+    display: flex;
+}
+
+.form__pesquisar {
+    border: none;
+
+    color: #fff;
+
+    padding: .5rem;
+    
+    font-size: 1.1rem;
+}
+.form__pesquisar:hover {
+    border-color: #fff;
+}
+
+.form__button {
+    color: #fff;
+    border-color: #fff;
+
+    padding: .5rem;
+
+    border-radius: 10px;
+}
+
+.form__button:hover {
+    cursor: pointer;
+
+    transition: .5s;
+    transform: scale(1.1);
+}
