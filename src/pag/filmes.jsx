@@ -26,6 +26,8 @@ function Fimes() {
     <>
       <h1 className="titulo">Filmes que estão por vir!</h1>
       <div className="movies">
+
+        {filmes === 0 && <h1>Carregando...</h1>}
         {filmes.map((filme) => (
           <CardsFilmes key={filme.id} Filmes={filme} />
         ))}
