@@ -7,13 +7,13 @@ const filmesAPI = import.meta.env.VITE_FILMES_NOW;
 
 function Fimes() {
   const [filmes, setFilmes] = useState([]);
-  // console.log(filmes)
+  console.log(filmes)
 
   useEffect(() => {
     const linkUrlTmdb = ` ${filmesAPI}?${chaveApi} `;
 
     pegaLinkTmdb(linkUrlTmdb);
-  });
+  },[]);
 
   const pegaLinkTmdb = async (url) => {
     const resposta = await fetch(url);
