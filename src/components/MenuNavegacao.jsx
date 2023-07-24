@@ -11,7 +11,7 @@ function MenuNavegacao() {
     <>
       <header className="cabecalho">
         <Link to="/">
-          <h1 className="logo">FF Free Filmes</h1>
+          <h1 className="logo">FreeFi Free Filmes</h1>
         </Link>
 
         <nav className="menu">

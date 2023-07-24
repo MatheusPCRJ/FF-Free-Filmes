@@ -10,9 +10,12 @@
     padding: .5rem;
     
     font-size: 1.1rem;
+
+    margin-right: 5px;
 }
 .form__pesquisar:hover {
     border-color: #fff;
+
 }
 
 .form__button {
